@@ -11,7 +11,7 @@ class App extends Component {
     handleSubmit(event){
       event.preventDefault(); 
 
-      // Find the text field via the React ref
+      // Find the text field via the React ref testing testing
       const text = ReactDOM.findDOMNode(this.refs.textInput).value.trim();
 
       Tasks.insert({
